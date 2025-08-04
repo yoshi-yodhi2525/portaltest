@@ -1,0 +1,5 @@
+{
+  "name": "Event Portal",
+  "description": "A comprehensive portal page for your event, including schedule, speaker information, maps, and a personal notepad.",
+  "requestFramePermissions": []
+}
