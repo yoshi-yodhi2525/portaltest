@@ -23,16 +23,18 @@ const Home = () => {
       <div className="relative rounded-lg overflow-hidden h-64 shadow-lg">
         <img src="https://picsum.photos/1200/400?random=1" alt="Event banner" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-            <h2 className="text-4xl font-bold text-white text-center">Tech Conference 2024</h2>
+            <h2 className="text-4xl font-bold text-white text-center">ノンプログラマーズ・テックキャンプ2025</h2>
         </div>
       </div>
       
       <div className="grid md:grid-cols-2 gap-8">
         <InfoCard icon={CalendarIcon} title="日時・場所" children={
             <>
-                <p><strong>日時:</strong> 2024年10月26日 (土) 10:00 - 16:00</p>
-                <p><strong>場所:</strong> 東京国際フォーラム (ホールB7)</p>
-                <p><strong>アクセス:</strong> JR有楽町駅より徒歩1分</p>
+                <p><strong>日時:</strong> 2025年9月6日 (土) 10:00 - 16:00</p>
+                <p><strong>場所:</strong> サイボウズ　東京都中央区日本橋２丁目７?１ 東京日本橋タワー２７階</p>
+                <p><strong>アクセス:</strong> 東京メトロ銀座線・東西線、都営地下鉄浅草線：「日本橋駅」B6出口直通
+東京メトロ半蔵門線・銀座線：「三越前駅」B6出口より徒歩3分
+JR：「東京駅」八重洲北口より徒歩10分</p>
             </>
         } />
 
